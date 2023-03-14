@@ -10,7 +10,7 @@ RSpec.describe "report_length method" do
     result = report_length("")
     expect(result).to eq "This string was 0 characters long."
   end
-  
+
   it "return error when string given is number" do 
     result = report_length(0)
     expect(result).to eq "Error"
